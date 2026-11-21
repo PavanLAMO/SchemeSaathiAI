@@ -1,0 +1,28 @@
+{
+  "name": "schemesaathi-ai",
+  "version": "1.0.0",
+  "description": "Voice-First Multilingual AI Platform for Indian Government Welfare Schemes",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "node backend/test-api.js"
+  },
+  "keywords": [
+    "schemesaathi",
+    "voice-ai",
+    "government-schemes",
+    "bharat-ai",
+    "web-speech-api",
+    "multilingual"
+  ],
+  "author": "PavanLAMO",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
